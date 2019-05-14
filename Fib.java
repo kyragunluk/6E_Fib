@@ -40,7 +40,7 @@ public class Fib {
         int oneNum = 0;
         int anotherNum = 1;
         int temp = oneNum;
-        for (counter = 0; counter < n ; counter++){
+        for (int counter = 0; counter < n ; counter++){
             oneNum = anotherNum;
             anotherNum += temp;
             temp = oneNum;
