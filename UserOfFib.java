@@ -38,6 +38,8 @@ public class UserOfFib {
               using method recurrence seeking F_7
               Fib 13
             */
+            //fib 45 took 8.43 seconds. Between 40 and 50, run time
+            //increases greatly.
         else if( method.equals( "grade8" ))
             System.out.println( "Fib " + Fib.fib_grade8( seek));
             /*
